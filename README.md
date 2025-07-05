@@ -33,4 +33,16 @@ This repo is my digital notebook — showcasing not only my coding skills, but a
 
 ## 📅 Restart Date: `5th July 2025`
 
+## 📚 Resources I Follow
+
+To strengthen my DSA skills, I'm following a structured approach using trusted resources:
+
+- **Striver’s A2Z DSA Sheet** – For a complete, topic-wise DSA roadmap.
+- **Top 100 Coding Problems** – To cover commonly asked interview questions.
+- **PrepInsta Materials** – For practice targeting service-based companies like TCS, Wipro, Infosys, etc.
+- **YouTube Channels** – I use channels like Striver (Take U Forward), Apna College, and CodeWithHarry to understand concepts in an easy and clear way.
+
+These resources help me stay consistent, revise important topics, and prepare effectively for technical interviews.
+
+
 Let this be a meaningful restart.
