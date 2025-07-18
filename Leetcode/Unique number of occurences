@@ -1,0 +1,14 @@
+class Solution {
+    public boolean uniqueOccurrences(int[] arr) {
+        HashMap<Integer,Integer> map = new HashMap<>();
+//count the frequency of each number
+
+        for(int a : arr)
+            map.put(a, map.getOrDefault(a,0) + 1); 
+// Check if frequencies are unique
+        HashSet<Integer> set = new HashSet<>();
+        for(int a : map.values())
+            if(!set.add(a)) return false;
+        return true;
+    }
+}
