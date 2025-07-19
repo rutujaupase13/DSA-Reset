@@ -1,0 +1,34 @@
+class Solution {
+    public int search(int[] nums, int target) {
+        int n = nums.length;
+        int mid = (0 + (n))/ 2;
+        int index = -1;
+        if(n == 1){
+            if(target == nums[0]){
+                return 0;
+            }
+            else{
+            return index;
+            }
+        }
+        if(target == nums[mid]){
+              return mid  ;
+        }
+        
+        if(target < mid){
+            for(int i = 0; i < mid;i++){
+                if(nums[i] == target){
+                   return i;    
+                }
+            }
+        }
+        else{
+            for(int i = mid+1 ; i < n ;i++){
+                if(nums[i] == target){
+                    return i;
+                }
+            }
+        }
+        return index;
+    }
+}
