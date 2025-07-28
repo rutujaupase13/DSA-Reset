@@ -1,0 +1,17 @@
+class Solution {
+public int[] getSneakyNumbers(int[] nums) {
+Arrays.sort(nums);
+       int[] array = new int[2];
+        int n = 0;
+         for(int i = 1; i < nums.length ; i++){
+             if(nums[i] == nums[i-1] ){
+                 if(n >= 2) break;
+                 array[n] = nums[i];
+                 n++;
+             }
+            
+         }
+         return array;
+     }
+ }
+
